@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mx:Application height="600px" width="600px">
+  <mx:Script>
+    <![CDATA[
+	     private function greet( event.flash.events.MouseEvent ):void{
+	       messageLabel.text = "I greet you " + nameTextBox.text + ". Come with me! Hello World!";
+	     }
+    ]]>
+  </mx:Script>
+  <mx:TextInput id="nameTextbox" height="20" width="160" />
+  <mx:Label id="nameLabel" height="20" width="160" text="Hello. Please enter your name so that I can greet You." />
+  <mx:Button id="submit" />
+  <mx:Label id="messageLabel" height="20" width="160" text="Hello. Please enter your name so that I can greet You." />
+</mx:Application>
