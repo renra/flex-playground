@@ -3,5 +3,9 @@
 	       xmlns:s="library://ns.adobe.com/flex/spark"
 	       xmlns:mx="library://ns.adobe.com/flex/mx"
 	       xmlns:components="components.*">
+
+  <s:Panel title="content" color="0x323232" width="100" height="200">
+    <s:RichText text="This is a rich text" width="100" height="100" paddingTop="5" paddingLeft="5" paddingRight="5" paddingBottom="5" />
+  </s:Panel>
   
 </s:Application>
